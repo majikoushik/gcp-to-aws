@@ -5,6 +5,7 @@ steps:
       '-t', 'us-central1-docker.pkg.dev/mineral-anchor-465412-i6/gcp-to-s3-transfer/transfer-image:latest',
       '.'
     ]
-
+options:
+  logging: CLOUD_LOGGING_ONLY
 images:
   - 'us-central1-docker.pkg.dev/mineral-anchor-465412-i6/gcp-to-s3-transfer/transfer-image:latest'
